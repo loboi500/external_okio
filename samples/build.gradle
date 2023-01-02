@@ -1,23 +1,3 @@
-apply plugin: 'org.jetbrains.kotlin.multiplatform'
-apply plugin: 'application'
-
-mainClassName = System.getProperty("mainClass")
-
-kotlin {
-  jvm {
-    withJava()
-  }
-  sourceSets {
-    commonMain {
-      dependencies {
-        implementation project(':okio')
-      }
-    }
-    jvmTest {
-      dependencies {
-        implementation deps.test.junit
-        implementation deps.test.assertj
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3205f783e4bf2e559d4ee1860465457cc2eb03fbe088fdef69b5d1bbf09d3c98
+size 407

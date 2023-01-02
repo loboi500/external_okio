@@ -1,14 +1,3 @@
-rootProject.name = 'okio-parent'
-
-include ':okio'
-include ':okio:jvm:japicmp'
-include ':okio:jvm:jmh'
-include ':samples'
-
-enableFeaturePreview("GRADLE_METADATA")
-
-// The Android test module doesn't work in IntelliJ. Use Android Studio or the command line.
-if (properties.containsKey('android.injected.invoked.from.ide') ||
-  System.getenv('ANDROID_SDK_ROOT') != null) {
-  include ':android-test'
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:513d9faeb50f29963dc994e7cfb9b5208f4fa5a8180013b7e01745f478047457
+size 398

@@ -1,10 +1,3 @@
-Serious about security
-======================
-
-Square recognizes the important contributions the security research community
-can make. We therefore encourage reporting security issues with the code
-contained in this repository.
-
-If you believe you have discovered a security vulnerability, please follow the
-guidelines at https://bugcrowd.com/squareopensource
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ea1b5474a9623cfd951d769901a04b99e3efc39b027cc77cf25d1e7aea270a6
+size 361

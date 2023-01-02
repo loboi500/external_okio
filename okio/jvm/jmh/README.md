@@ -1,10 +1,3 @@
-Okio Benchmarks
-===============
-
-This module contains JMH microbenchmarks. Run benchmarks locally with Gradle:
-
-```
-$ ./gradlew jmh
-```
-
-Select and configure benchmarks in the `jmh` section of `okio/jvm/jmh/build.gradle`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:66c4a8fac45409fba81b72fd12b3bd48d97e6c76f27cb5cc467bcef3121237a9
+size 222
